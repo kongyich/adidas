@@ -24,8 +24,10 @@
 var mySwiper = new Swiper ('.swiper-container', {
    
     loop: true, // 循环模式选项
-   
-    autoplay:true,
+    speed:2000,
+    autoplay : {
+        delay:3000
+      },
     // 如果需要前进后退按钮
     navigation: {
       nextEl: '.swiper-button-next',
@@ -74,5 +76,7 @@ var mySwiper = new Swiper ('.swiper-container', {
 
 }
 
+
+//case1
 
 

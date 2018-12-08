@@ -1,4 +1,4 @@
-.cheader , .header_content,.divnone_con , .nav_content{
+.cheader , .header_content,.divnone_con , .nav_content,.modelfor-con,.case1-con{
     width:1262px;
     margin:0 auto;
 }
@@ -266,3 +266,73 @@
     width: 100%;
     height: 500px;
 } 
+
+
+
+/* banner下面的模块 */
+.modelfor{
+    height:949px;
+    width:100%;
+}
+.modelfor-con{
+    padding-top:40px;
+    height:909px;
+    
+}
+.modelfor-case{
+  
+    width:596px;
+    height:416px;
+    float:left;
+}
+.modelfor-img{
+    height:334px;
+    width:596px;
+    
+}
+
+.modelfor-case img{
+    height:100%;
+    width:100%;
+}
+.modelfor-case>p{
+    font-size:32px;
+    font-weight: 600;
+    color:#000;
+    margin-top:5px;
+}
+.modelfor-case>a{
+    display:block;
+    font-size:14px;
+    margin-top:26px;
+    color:#000;
+}
+.mc-case{
+    margin-top:25px;
+}
+.mc-case1{
+    margin-left:20px;
+}
+.mc-case2{
+    margin-left:25px;
+}
+
+
+/* case1 */
+.case1{
+    height:519px;
+    width:100%;
+    background:pink;
+}
+.case1-con{
+    background:blue;
+}
+.case1-con p{
+    height:47px;
+    font-size:26px;
+    color:#000;
+    font-weight:500;
+    background:peru;
+    padding-top:27px;
+    
+}
