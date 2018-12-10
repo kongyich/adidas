@@ -1,4 +1,5 @@
-.cheader , .header_content,.divnone_con , .nav_content,.modelfor-con,.case1-con{
+.cheader , .header_content,.divnone_con , .nav_content,.modelfor-con,.case1-con,.case2-con,.botton_con,
+.blist_con,.pay-con,.wei-con{
     width:1262px;
     margin:0 auto;
 }
@@ -262,9 +263,11 @@
 
 
 /* banner轮播图 */
+
 .swiper-container {
     width: 100%;
     height: 500px;
+    
 } 
 
 
@@ -322,17 +325,246 @@
 .case1{
     height:519px;
     width:100%;
-    background:pink;
+    
 }
 .case1-con{
-    background:blue;
+   
+    position: relative;
+    
+
 }
-.case1-con p{
+.cap{
     height:47px;
     font-size:26px;
     color:#000;
     font-weight:500;
-    background:peru;
+    
     padding-top:27px;
+}
+.case1Con_botton{
+    height:445px;
+  
+    position: absolute;
+}
+.cb_one{
+    height:445px;
+    width:292px;
+   
+    float:left;
+   
+}
+.one1{
+     margin-left:20px;
+}
+.one2{
+    margin-left:16px;
+}
+
+
+.cb_oneImg{
+    height:293px;
+    width:292px;
+   
+}
+.cb_one p{
+    font-size:12px;
+    color:#000;
+    margin:15px 0 0 16px;
+}
+
+.btn1,.btn2{
+    width:25px;
+    height:25px;
+   background:#fff;
+    font-size:18px;
+    border-radius: 10px;
     
 }
+
+
+.btn1{
+    position: absolute;
+    left:0;
+    top:200px;
+}
+.btn2{
+    position: absolute;
+    right:0;
+    top:200px;
+}
+
+
+/* case2 */
+.case2{
+    height:500px;
+    width:100%;
+}
+.case2-con{
+    height:500px;
+}
+.swiper{
+    height:427px;
+    width:100%;
+}    
+
+
+/* 底部导航栏 */
+.botton_nav{
+    height:100px;
+    width:100%;
+    background:#000;
+}
+.botton_con{
+    height:100px;
+}
+.botton_nav .botton_con ul li{
+    float:left;
+    margin-top:36px;
+    font-size:14px;
+    color:#fff;
+    font-weight:600;
+}
+.botton_nav .botton_con ul li a{
+    color:#fff;
+}
+.botton_nav .botton_con ul li p{
+    font-size:12px;
+    color:#888888;
+    font-weight:normal;
+    margin-left:22px;
+}
+.bli1{
+    margin-left:20px;
+}
+.bli2{
+    margin-left:85px;
+}
+.bli3{
+    margin-left:286px;
+}
+
+/* 底部列表 */
+.botton_list{
+    height:317px;
+    width:100%;
+   
+}
+.blist_con{
+    height:277px;
+    
+    padding-top:40px;
+}
+.blist_con ul{
+    float:left;
+}
+.bul1{
+    margin-left:20px;
+}
+.bul2{
+    margin-left:180px;
+}
+.bul3{
+    margin-left:220px;
+}
+.blist_con ul  h2{
+    font-size:16px;
+    color:#000;
+    font-weight:600;
+}
+.blist_con ul li{
+    font-size:14px;
+    color:#000;
+}
+.bli11{
+    margin-top:20px;
+    position: relative;
+}
+.bul3 li{
+    display:block;
+    background:url(./../images/index/icon.png)  top left;
+    height:26px;
+    width:26px;
+    float:left;
+    margin-left:8px;
+   
+}
+.bul3>li:first-child{
+   
+   background-position:-129px 153px;
+}
+
+
+/* 倒数第二块付款 */
+.pay{
+    height:111px;
+    width:100%;
+}
+.pay-con{
+    height:111px;
+    background:blue;
+}
+
+.pc_top{
+    height:45px;
+    width:100%;
+    background:yellow;
+}
+.pc_top p{
+    float:left;
+    font-size:14px;
+    color:#000;
+    line-height:45px;
+    margin-left:20px;
+}
+.pc_top i{
+    margin-top:10px;
+    height:25px;
+    width:100px;
+    float:left;
+    background:url(./../images/index/icon.png)no-repeat top left;
+}
+
+.pay .pc_top> i .pci1{
+    background-position: -615px 341px;
+}
+.pc_botton p{
+    font-size:14px;
+    float:left;
+    line-height:66px;
+    color:#000;
+}
+.pc_botton p:first-child{
+    margin-left:20px;
+}
+.pc_botton p:last-child{
+    margin-left:85px;
+}
+
+/* 尾部，最后的曙光 */
+.wei{
+    height:40px;
+    width:100%;
+    background:blue;
+}
+.wei-con{
+    height:40px;
+    background:pink;
+    line-height:40px;
+}
+.wei-con ul{
+   float:left;
+    font-size:12px;
+    color:#888;
+}
+.wei-con ul:first-child{
+    margin-left:20px;
+}
+
+.wei-con ul:last-child{
+    margin-left:620px;
+}
+.wei-con ul li{
+   float:left;
+
+}
+
