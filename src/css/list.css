@@ -1,0 +1,260 @@
+.look-con,.case-con{
+    width:1262px;
+    margin:0 auto;
+}
+
+/* 超大banner图 */
+.bigbanner{
+    height:528px;
+    width:100%;
+}
+
+
+/* banner图下面的文字 */
+.word{
+    height:478px;
+    width:100%;
+   position: relative;
+}
+.word img{
+    height:478px;
+}
+.word-con{
+    width:1262px;
+    height:402px;
+    padding-top:76px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.word-con h2{
+    text-align: center;
+    font-size:38px;
+    font-weight:600;
+}
+.word p{
+    margin:50px 100px 0 60px;
+    font-size:22px;
+    font-weight:600;
+   line-height:60px;
+}
+
+/* banner图二 */
+.banner-two{
+    height:940px;
+    width:100%;
+}
+
+/* 图三 */
+.banner-three{
+    height:376px;
+    width:100%;
+    position: relative;
+}
+.bpay{
+    height:50px;
+    width:143px;
+    background:#000;
+    z-index:2;
+    position: absolute;
+    top: 58%;
+    left: 55.7%;
+}
+.bpay a{
+    color:#fff;
+    text-align:center;
+    line-height:50px;
+    font-size:18px;
+}
+.bpay a:hover{
+    color:#777870;
+}
+.bpay:hover{
+   background:rgb(255, 255, 255, 0);
+   transition-duration: 1s;
+}
+
+/* 推荐文字 */
+.tuij{
+    height:137px;
+    width:100%;
+}
+.tuij p{
+    font-size:30px;
+    color:#000;
+    text-align: center;
+    line-height:137px;
+}
+
+
+
+/* 商品列表 */
+/* common --start*/
+
+.line{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    box-shadow:  0 1px 0  #000;
+    opacity: 0.3;
+    border-radius: 1px;
+}
+
+/* common --end */
+
+
+.container-goodslist{
+    width: 1260px;
+    margin: 0 auto;
+    position: relative;
+}
+.container-goodslist::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container-goodslist .goods-box{
+    width: 282px;
+    box-shadow: 0 0 5px #eee;
+    transition: 2s;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container-goodslist .goods-box:hover{
+    box-shadow: 0 5px 15px #ddd;
+}
+
+.container-goodslist .good-image img{
+    width: 100%;
+    height: 393px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.container-goodslist .good-title{
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.container-goodslist .good-title p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.container-goodslist .good-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.pagination-page .page-box{
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    margin-left: -5px;
+}
+.pagination-page .page-box span{
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(0 , 0 , 0 , 0.3);
+    color: #ffffff;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.pagination-page .page-box span.active{
+    box-shadow: 0 0 3px #000;
+    border-radius: 2px;
+    font-size: 18px;
+    background:  rgba(0 , 0 , 0 , 0.6);
+}
+
+
+/* 查看更多 */
+.look{
+    height:146px;
+    width:100%;
+}
+.look-con{
+    height:146px;
+    position: relative;
+}
+.bpay2{
+    position: absolute;
+    top:50px;
+    left:560px;
+}
+
+
+/* list页面案例 */
+.case{
+    height:390px;
+    width:100%;
+    background:pink;
+}
+.case-con{
+    height:390px;
+    background:blue;
+}
+.case1{
+    position: relative;
+    float:left;
+}
+.case1-img img{
+    height:304px;
+    width:280px;
+}
+.case1-img,.case1-flog{
+    display:block;
+    height:304px;
+    width:280px;
+    float:left;
+    margin-left:28px;
+}
+
+.case1-flog{
+   background:rgba(0 , 0 , 0 ,0.7);
+   display:none;
+   position: absolute;
+}
+
+.case1-flog p{
+    font-size:16px;
+    color:#fff;
+    text-align:center;
+    marin-top:5px;
+}
+.case1-flog p:first-child{
+    margin-top:100px;
+}
+.i1{
+    height:46px;
+    width:155px;
+    background:#fff;
+    margin:0 auto;
+    margin-top:10px;
+}
+.i1 i{
+    font-size:18px;
+    margin-left:36px;
+    line-height:46px;
+}
+.i1 i a{
+    color:#000;
+}
+
+.case1:hover .case1-flog{
+    display:block;
+}

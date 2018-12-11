@@ -141,3 +141,571 @@ input {
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
+
+
+
+.cheader , .header_content,.divnone_con , .nav_content,
+.botton_con,.blist_con,.pay-con,.wei-con,.twoSelect_con{
+    width:1262px;
+    margin:0 auto;
+}
+
+/* 导航栏样式 */
+/* header  */
+.cheader{
+    width:100%;
+    position: relative;
+    height:80px;
+}
+
+
+.header{
+    width:100%;
+    height:29px;
+    background:#000;
+}
+.header_content{
+    height:29px;
+    background:#000;
+}
+.header_ul{
+    width:419px;
+    height:29px;
+    margin-left:848px;
+}
+.header_ul li{
+    float:left;
+    font-size:12px;
+    text-align: center;
+    line-height:29px;
+}
+.header_ul li a{
+    display:block;
+    width:103px;
+    height:29px;
+    color:#c8cbcc;
+}
+.header_ul li:nth-child(2) a:hover{
+    background:#fff;
+    color:#000;
+}
+
+.emillevent a{
+    display:block;
+}
+
+/* nav */
+.nav{
+    height:51px;
+    width:100%;
+    background:#000;
+    position:absolute;
+    z-index:10;
+}
+.nav_content{
+    height:51px;
+}
+.nc_left{
+    width:720px;
+    height:51px;
+    float:left;
+}
+.nc_left ul h1{
+    float:left;
+}
+.nc_left ul h1 img{
+    width:68px;
+    height:48px;
+    position: absolute;
+   bottom:15px;
+}
+.nc_left ul li{
+    float:left;
+    margin-top:11px;
+    font-size:18px;
+    font-weight:600;
+}
+.nc_left ul li a{
+    color:#fff;
+}
+.li1 a{
+    display:block;
+    width:60px;
+    margin-left:12px;
+    text-align: center;
+}
+.nc_left ul .li11{
+    margin-left:80px;
+}
+.li1:nth-child(4) a{
+    padding-right:10px;
+    border-right:1px solid #fff;
+}
+.li1:nth-child(6) a{
+    padding-right:10px;
+    border-right:1px solid #fff;
+}
+.li2{
+    margin-left:20px;
+}
+
+.nc_right{
+    float:right;
+    width:250px;
+    height:34px;
+    margin:10px 10px 0 0;
+    
+}
+.nc_right input{
+    height:30px;
+    width:140px;
+    margin:2px 0 0 0;
+    float:left;
+}
+.nc_right .inputi button{
+    height:30px;
+    width:30px;
+    float:left;
+    margin-top:2px;
+    background:#fff;
+}
+.nc_right .inputi i{
+    font-size:16px;
+    font-weight:600;
+}
+
+  .nc_right a .ipi2{
+    color:#fff;
+    line-height:30px;
+    font-size:24px;
+    margin-left:10px;
+    float:left;
+}
+
+.inu{
+    width:168px;
+    height:100%;
+    float:left;
+    background:#fff;
+    border:1px solid #888;
+    font-size:12px;
+    
+
+   
+}
+
+.inu li:hover{
+    color:#888;
+}
+
+
+
+/* 点击邮件订阅显示和隐藏的内容 */
+
+.divnone{
+    height:250px;
+    width:100%;
+    background:#ebedee;
+    display:none;
+    position: absolute;
+    z-index:10;
+}
+.divnone_con{
+    height:243px;
+    
+}
+.dc_top{
+    height:74px;
+    border-bottom: 1px solid #666;
+}
+.dc_top p{
+    height:74px;
+    float:left;
+    text-align:center;
+    line-height:74px;
+    font-size:14px;
+    color:#000;
+    margin-left:10px;
+}
+.dc_top p:last-child{
+    margin-left:310px;
+}
+.dc_between{
+    height:110px;
+}
+.db_left{
+    width:404px;
+    height:90px;
+    float:left;
+    padding:20px 0 0 10px;
+}
+.db_bet{
+    margin-left:75px;
+    width:200px;
+    height:90px;
+    float:left;
+    padding:20px 0 0 10px;
+}
+.db_left:first-child{
+    font-size:14px;
+    color:#000;
+    font-weight:600;
+}
+.db_left input{
+    width:300px;
+    height:36px;
+    background:#fff;
+    margin-top:5px;
+    border:1px solid #c8cbcc;
+}
+.db-p2{
+    margin-top:5px;
+    color:#666;
+}
+.dbp3{
+    color:#000;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+.man18{
+    
+    line-height:110px;
+    margin-left:60px;
+    font-size:14px;
+    color:#000;
+}
+.man18 .old{
+    width:20px;
+    height:20px;
+    margin-right:5px;
+}
+
+
+.dingy{
+    width:130px;
+    height:42px;
+    background:#000;
+    color:#fff;
+    margin-left:180px;
+}
+#man,#woman{
+   
+    width:20px;
+    height:20px;
+   
+}
+#woman{
+     margin-left:10px;
+}
+
+.dc_buttom p{
+    margin:10px 0 0 10px;
+    font-size:12px;
+    color:#888;
+}
+
+/* 划过显示的二级菜单 */
+.twoSelect{
+    height:472px;
+    background:#fff;
+    width:100%;
+    display:none;
+}
+
+.two_menu{
+    height:376px;
+    width:100%; 
+    padding:12px 0;
+}
+.menu_one{
+    height:335px;
+    width:170px;
+   float:left;
+}
+.menu_one img:first-child{
+    width:170px;
+    height:30px;   
+    margin-bottom:10px;
+    display:block;
+}
+.menu_one img:last-child{
+    width:170px;
+    height:80px;
+    background:#000;
+}
+.menu_one ul li a{
+    font-size:14px;
+    color:#000;
+}
+.menu_one li a:hover{
+    color:blue;
+}
+.one1{
+    margin-left:30px;
+}
+.one2{
+    padding-left:10px;
+    width:160px;
+    height:260px;
+    float:left;
+    border-left:1px solid #c8cbcc;
+}
+.one2 h4{
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+.one2 ul li a{
+   
+    font-size:14px;
+    color:#000;
+}
+.menu-bot p{
+    margin-left:10px;
+    float:left;
+    font-size:14px;
+    font-weight:600;
+}
+.menu-bot i{
+    margin-left:50px;
+    float:left;
+    font-size:14px;
+    font-weight:600;
+}
+
+/* 底部导航栏 */
+.botton_nav{
+    height:100px;
+    width:100%;
+    background:#000;
+}
+.botton_con{
+    height:100px;
+}
+.botton_nav .botton_con ul li{
+    float:left;
+    margin-top:36px;
+    font-size:14px;
+    color:#fff;
+    font-weight:600;
+}
+.botton_nav .botton_con ul li a{
+    color:#fff;
+}
+.botton_nav .botton_con ul li p{
+    font-size:12px;
+    color:#888888;
+    font-weight:normal;
+    margin-left:22px;
+}
+.bli1{
+    margin-left:20px;
+}
+.bli2{
+    margin-left:85px;
+}
+.bli3{
+    margin-left:286px;
+}
+
+
+/* 底部列表 */
+.botton_list{
+    height:317px;
+    width:100%;
+   
+}
+.blist_con{
+    height:277px;
+    
+    padding-top:40px;
+}
+.blist_con ul{
+    float:left;
+}
+.bul1{
+    margin-left:20px;
+}
+.bul2{
+    margin-left:180px;
+}
+.bul3{
+    margin-left:220px;
+}
+.blist_con ul  h2{
+    font-size:16px;
+    color:#000;
+    font-weight:600;
+}
+.blist_con ul li{
+    font-size:14px;
+    color:#000;
+}
+.bli11{
+    margin-top:20px;
+    position: relative;
+}
+.bul3>li{
+    display:block;
+    background:url(./../images/index/icon.png)no-repeat;
+    height:30px;
+    width:30px;
+    float:left;
+    margin:10px 0 0 0;
+   
+}
+.blist_con .bul3 .bul1{
+   background-position:-129px -153px;
+}
+.blist_con .bul3 .bul2{
+    margin-left:10px;
+    background-position: -270px -153px;
+}
+
+
+/* 倒数第二块付款 */
+.pay{
+    height:111px;
+    width:100%;
+}
+.pay-con{
+    height:111px;
+}
+
+.pc_top{
+    height:45px;
+    width:100%;
+}
+.pc_top p{
+    float:left;
+    font-size:14px;
+    color:#000;
+    line-height:45px;
+    margin-left:20px;
+}
+.pc_top>i{
+   
+    display:inline-block;
+    margin-top:10px;
+    height:25px;
+    background:url(./../images/index/icon.png)no-repeat;
+}
+
+.pc_top .pci1{
+    width:80px;
+    background-position:-615px -341px;
+}
+.pc_top .pci2{
+    width:110px;
+    background-position: -695px -341px;
+}
+.pc_top .pci3{
+    width:100px;
+    background-position: -813px -341px;
+}
+.pc_top .pci4{
+    width:100px;
+    background-position: -917px -341px;
+}
+
+.pc_botton p{
+    font-size:14px;
+    float:left;
+    line-height:66px;
+    color:#000;
+}
+.pc_botton p:first-child{
+    margin-left:20px;
+}
+.pc_botton p:last-child{
+    margin-left:85px;
+}
+
+/* 尾部，最后的曙光 */
+.wei{
+    height:40px;
+    width:100%;
+    background:#000;
+}
+.wei-con{
+    height:40px;
+    background:#000;
+}
+.wei-con ul{
+   float:left;
+    font-size:12px;
+    color:#888888;
+}
+.wei-con ul:first-child{
+    width:400px;
+    height:40px;
+    margin-left:30px;
+    position: relative;
+    
+}
+
+.wei-con ul:last-child{
+    width:450px;
+    height:40px;
+    float:right;
+   position: relative;
+   margin-left:150px;
+}
+.wei-con ul:first-child li{
+    height:14px;
+    width:60px;
+    line-height:14px;
+    text-align:center;
+    margin:15px 0 0 10px;
+}
+.wei-con ul:last-child li{
+    margin-top:11px;
+}
+.wc_li{
+    border-right:1px solid #888888;
+}
+
+.wei-con ul li{
+   float:left;
+}
+.wei .wei-con ul .weili1{
+    position: absolute;
+    left:0;
+    top:15px;
+    display:inline-block;
+    width:16px;
+    height:12px;
+    background:url(./../images/index/icon.png) -48px -189px;
+}
+.uli1{
+    margin-left:20px;
+}
+.uli2{
+    margin-left:20px;
+}
+.weili2,.weili3{
+    width:15px;
+    height:15px;
+    display:inline-block;
+}
+
+
+.wei .wei-con ul .weili2{
+    background:url(./../images/index/icon.png) 0 -191px;
+    position: absolute;
+    left:129px;
+    top:15px;
+
+}
+.wei .wei-con ul .weili3{
+    background:url(./../images/index/icon.png) -24px -191px;
+    position: absolute;
+    left:227px;
+    top:15px;
+}
