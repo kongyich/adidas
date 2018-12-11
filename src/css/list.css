@@ -202,11 +202,9 @@
 .case{
     height:390px;
     width:100%;
-    background:pink;
 }
 .case-con{
     height:390px;
-    background:blue;
 }
 .case1{
     position: relative;
