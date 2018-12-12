@@ -6,7 +6,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./../css/common.css">
-    <link rel="stylesheet" href="./../css/list.css">
+    <link rel="stylesheet" href="./../css/login.css">
     <link rel="stylesheet" href="./../iconfont/iconfont.css">
 </head>
 <body>
@@ -173,93 +173,44 @@
         </div>
     </div>
 
-<!-- 超大banner图片 -->
-    <div class="bigbanner">
-        <img src="./../images/list/bigbanner.jpg" alt="">
+<!-- login -->
+
+<div id="login">
+    <div class="login_img">
+        <img src="./../images/index/logo (2).png"/>
     </div>
-
-<!-- banner图下面的文字 -->
-<div class="word">
-    <img src="./../images/list/bg1.jpg" alt="">
-    <div class="word-con">
-        <h2>一麦传承</h2>
-        <p>
-        全新T-Mac系列战靴之所以选取Millennium作为名称，
-        旨在“千禧一代”的球员能通过这双战靴，
-        传承麦迪的篮球精神、创造更多的传奇时刻。
-        而麦迪自身也在致力于培养新人，
-        他一直都有参与年轻球员的训练，传授自己的技艺与赛场经验。除此之外，
-        由麦迪与adidas共同创办的麦迪篮球训练营，
-        也让更多青少年球员得以麦迪真传，
-        麦迪的篮球精神与技艺也由此“一麦传承”。
-        </p>
+    <p class="login_head">登陆 MIADIDAS+ 帐户</p>
+    <div id="login_phone">
+        <span class="phone_86">
+            +86
+        </span>
+        <input type="text" id="login_phonenum" placeholder="手机号码" />
     </div>
-</div>
-
-<!-- banner图二 -->
-
-<div class="banner-two">
-    <img src="./../images/list/bg2.jpg" alt="">
-</div>
-
-<!-- 图三：pay -->
-
-<div class="banner-three">
-    <img src="./../images/list/bg3.jpg" alt="">
-
-    <div class="bpay">
-        <a href="./goods.html"><p>立即购买<i class="iconfont icon-youjiantou1"></i></p></a>
+    <div id="login_wrongphone" style="margin-bottom: 10px;display: none;">
+        
     </div>
-</div>
-
-
-
-<!-- 更多推荐文字 -->
-<div class="tuij">
-    <p>更多推荐</p>
-</div>
-
-
-
-<!-- 渲染的商品列表 -->
-<div>
-<div class="container-goodslist">
-    <!--   盒子结构  start-->
-    <!-- <div class="goods-box">
-          <div class="good-image">
-                <img src="https://s10.mogucdn.com/mlcdn/c45406/181127_03e0d6l4jgdf2fcgg25f1ed6kee2k_588x784.jpg" alt="">
-          </div>
-          <div class="good-title">
-                <p>韩式柔肤棉蕾丝床裙四件套公主碎花加厚磨毛四季床上用品单双人床罩被套小清新宜家风套件</p>
-          </div>
-          <div class="line"></div>
-          <div class="good-detail">
-                <span class="detail-price">
-                      ￥198 
-                </span>
-                <div class="detail-start">
-                      <i></i>
-                      <span>998</span>
-                </div>
-          </div>
-    </div> -->
-    <!--   盒子结构  end-->
-</div>
-
-<div class="pagination-page">
-    <div class="page-box">
+    <div id="login_password">
+        <input type="password" id="login_yourpassword" placeholder="密码"/>
     </div>
-</div>      
-</div>
-
-
-
-<!-- 查看更多 -->
-<div class="look">
-    <div class="look-con">
-        <div class="bpay bpay2">
-            <a href=""><p>查看更多<i class="iconfont icon-youjiantou1"></i></p></a>
-        </div>
+    <div id="login_wrongpassword" style="margin-bottom: 10px;display: none;">
+        
+    </div>
+    <div id="login_news">
+        <div id="login_checked"><span id="login_checked_span">√</span></div>
+        <span class="login_checked_span">记住密码</span>
+        <a href="javascripts:;"><span id="login_forget_span">忘记密码</span></a>
+    </div>
+    <div id="login_yinsi">
+        <p>一旦登陆，即表明你同意 adidas 的 <a href="javascripts:;" id="login_tiaokuan">隐私政策</a>和<a href="javascripts:;" id="login_tiaokuan">使用条款</a></p>
+    </div>
+    <div id="login_wronglogin" style="display: none;width: 200px;height: 20px;font-size: 14px;margin: 0 auto;text-align: center;">
+        
+    </div>
+    <div id="go_login">
+        <input type="button" id="login_goin" value="登陆"/>
+    </div>
+    <div id="login_yinsi">
+        <p>还不是会员？ <a href="./registe.html" id="login_tiaokuan">立即加入</a></p>
     </div>
 </div>
 
@@ -267,62 +218,12 @@
 
 
 
-<!-- list页面的案例 -->
-<div class="case">
-    <div class="case-con">
-        <div class="case1">
-            <div class="case1-img">
-                <img src="./../images/list/case1.jpg" alt="">
-            </div>
-            <div class="case1-flog">
-                <p>选购</p>
-                <p>JAMES HARDEN系列</p>
-                <div class="i1">
-                    <i><a href="">立即选购</a></i>
-                </div>
-            </div>
-        </div>
-        <div class="case1">
-                <div class="case1-img">
-                    <img src="./../images/list/case2.jpg" alt="">
-                </div>
-                <div class="case1-flog">
-                    <p>选购</p>
-                    <p>DERRICK ROSE系列</p>
-                    <div class="i1">
-                        <i><a href="">立即选购</a></i>
-                    </div>
-                </div>
-        </div>
-        <div class="case1">
-                <div class="case1-img">
-                    <img src="./../images/list/case3.jpg" alt="">
-                </div>
-                <div class="case1-flog">
-                    <p>选购</p>
-                    <p>DAMAIN LILLARD系列</p>
-                    <div class="i1">
-                        <i><a href="">立即选购</a></i>
-                    </div>
-                </div>
-        </div>
-        <div class="case1">
-                <div class="case1-img">
-                    <img src="./../images/list/case4.jpg" alt="">
-                </div>
-                <div class="case1-flog">
-                    <p>选购</p>
-                    <p>MIADIDAS篮球鞋系列</p>
-                    <div class="i1">
-                        <i><a href="">立即选购</a></i>
-                     </div>
-                </div>
-        </div>
-</div>
-</div>
 
 
-<!-- 底部导航栏 -->
+
+
+
+    <!-- 底部导航栏 -->
     <div class="botton_nav">
         <div class="botton_con">
             <ul>
@@ -432,6 +333,6 @@
    
     <script src="./../js/jquery-1.11.3.js"></script>
     <script src="./../js/common.js"></script>
-    <script src="./../js/list.js"></script>
+    <script src="./../js/login.js"></script>
 </body>
 </html>

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./../css/common.css">
-    <link rel="stylesheet" href="./../css/list.css">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./../css/common.css">
+    <link rel="stylesheet" href="./../css/goods.css">
+    
     <link rel="stylesheet" href="./../iconfont/iconfont.css">
+    <link rel="stylesheet" href="./../css/jquery.exzoom.css" type="text/css"/>
 </head>
 <body>
-     <!-- header头部 -->
-     <div class="cheader">
+	   <!-- header头部 -->
+	   <div class="cheader">
         <div class="header">
             <div class="header_content">
                 <ul class="header_ul">
@@ -173,156 +175,125 @@
         </div>
     </div>
 
-<!-- 超大banner图片 -->
-    <div class="bigbanner">
-        <img src="./../images/list/bigbanner.jpg" alt="">
-    </div>
-
-<!-- banner图下面的文字 -->
-<div class="word">
-    <img src="./../images/list/bg1.jpg" alt="">
-    <div class="word-con">
-        <h2>一麦传承</h2>
-        <p>
-        全新T-Mac系列战靴之所以选取Millennium作为名称，
-        旨在“千禧一代”的球员能通过这双战靴，
-        传承麦迪的篮球精神、创造更多的传奇时刻。
-        而麦迪自身也在致力于培养新人，
-        他一直都有参与年轻球员的训练，传授自己的技艺与赛场经验。除此之外，
-        由麦迪与adidas共同创办的麦迪篮球训练营，
-        也让更多青少年球员得以麦迪真传，
-        麦迪的篮球精神与技艺也由此“一麦传承”。
-        </p>
-    </div>
-</div>
-
-<!-- banner图二 -->
-
-<div class="banner-two">
-    <img src="./../images/list/bg2.jpg" alt="">
-</div>
-
-<!-- 图三：pay -->
-
-<div class="banner-three">
-    <img src="./../images/list/bg3.jpg" alt="">
-
-    <div class="bpay">
-        <a href="./goods.html"><p>立即购买<i class="iconfont icon-youjiantou1"></i></p></a>
-    </div>
-</div>
-
-
-
-<!-- 更多推荐文字 -->
-<div class="tuij">
-    <p>更多推荐</p>
-</div>
-
-
-
-<!-- 渲染的商品列表 -->
-<div>
-<div class="container-goodslist">
-    <!--   盒子结构  start-->
-    <!-- <div class="goods-box">
-          <div class="good-image">
-                <img src="https://s10.mogucdn.com/mlcdn/c45406/181127_03e0d6l4jgdf2fcgg25f1ed6kee2k_588x784.jpg" alt="">
-          </div>
-          <div class="good-title">
-                <p>韩式柔肤棉蕾丝床裙四件套公主碎花加厚磨毛四季床上用品单双人床罩被套小清新宜家风套件</p>
-          </div>
-          <div class="line"></div>
-          <div class="good-detail">
-                <span class="detail-price">
-                      ￥198 
-                </span>
-                <div class="detail-start">
-                      <i></i>
-                      <span>998</span>
-                </div>
-          </div>
-    </div> -->
-    <!--   盒子结构  end-->
-</div>
-
-<div class="pagination-page">
-    <div class="page-box">
-    </div>
-</div>      
-</div>
-
-
-
-<!-- 查看更多 -->
-<div class="look">
-    <div class="look-con">
-        <div class="bpay bpay2">
-            <a href=""><p>查看更多<i class="iconfont icon-youjiantou1"></i></p></a>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-<!-- list页面的案例 -->
-<div class="case">
-    <div class="case-con">
-        <div class="case1">
-            <div class="case1-img">
-                <img src="./../images/list/case1.jpg" alt="">
+    <!-- 页头付款运送 -->
+    <div class="ship">
+        <div class="ship_con">
+            <div class="ship1">
+                <span><img src="./../images/goods/ship1.png" alt=""></span>
+                <p class="shipp1">全场免运费 <i class="iconfont icon-youjiantou"></i></p>
+               
             </div>
-            <div class="case1-flog">
-                <p>选购</p>
-                <p>JAMES HARDEN系列</p>
-                <div class="i1">
-                    <i><a href="">立即选购</a></i>
-                </div>
+            <div class="ship1 ship2">
+                    <span><img src="./../images/goods/ship2.png" alt=""></span>
+                    <p class="shipp1">尊享当日达，次日达，次晨达 <i class="iconfont icon-youjiantou"></i></p>
+                   
             </div>
+            <div class="ship1 ship3">
+                    <span><img src="./../images/goods/ship3.png" alt=""></span>
+                    <p class="shipp1">注册会员支持货到付款 <i class="iconfont icon-youjiantou"></i></p>
+                       
+            </div>
+                       
         </div>
-        <div class="case1">
-                <div class="case1-img">
-                    <img src="./../images/list/case2.jpg" alt="">
-                </div>
-                <div class="case1-flog">
-                    <p>选购</p>
-                    <p>DERRICK ROSE系列</p>
-                    <div class="i1">
-                        <i><a href="">立即选购</a></i>
-                    </div>
-                </div>
-        </div>
-        <div class="case1">
-                <div class="case1-img">
-                    <img src="./../images/list/case3.jpg" alt="">
-                </div>
-                <div class="case1-flog">
-                    <p>选购</p>
-                    <p>DAMAIN LILLARD系列</p>
-                    <div class="i1">
-                        <i><a href="">立即选购</a></i>
-                    </div>
-                </div>
-        </div>
-        <div class="case1">
-                <div class="case1-img">
-                    <img src="./../images/list/case4.jpg" alt="">
-                </div>
-                <div class="case1-flog">
-                    <p>选购</p>
-                    <p>MIADIDAS篮球鞋系列</p>
-                    <div class="i1">
-                        <i><a href="">立即选购</a></i>
-                     </div>
-                </div>
-        </div>
-</div>
+    </div>
+
+
+
+
+
+
+    <!-- back返回 -->
+<div class="back">
+    <div class="back_con">
+        <p class="de-p1"><a href="./list.html"> < 返回</a></p>
+        <p class="de-p2">首页/YUNG-96经典鞋</p>
+    </div>
+
 </div>
 
 
-<!-- 底部导航栏 -->
+    <!-- 详情 -->
+    <div class="details">
+        <div class="details-con">
+            
+                    <div class="exzoom" id="exzoom"> 
+                            <!--大图区域-->
+                            <div class="exzoom_img_box">
+                          <ul class='exzoom_img_ul'>
+                                <li><img src="./../images/goods/b1.jpg"/></li>
+                                <li><img src="./../images/goods/b1.jpg"/></li>
+                                <li><img src="./../images/goods/b1.jpg"/></li>
+                                <li><img src="./../images/goods/b1.jpg"/></li>
+                                <li><img src="./../images/goods/b1.jpg"/></li>
+                                <li><img src="./../images/goods/b1.jpg"/></li>
+                                <li><img src="./../images/goods/b1.jpg"/></li>
+                                <li><img src="./../images/goods/b1.jpg"/></li>
+                              </ul>
+                        </div>
+                            <!--缩略图导航-->
+                            <div class="exzoom_nav"></div>
+                            <!--控制按钮-->
+                            <p class="exzoom_btn"> <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a> <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a> </p>
+                          </div>
+
+
+                          <div class="details-right">
+                                <p class="dr-p1">中性 ORIGINALS</p>
+                                <h5>YUN-96经典鞋</h5>
+                                <p class="xinxin">⭐⭐⭐⭐⭐<a href="">共5条评价</a></p>
+                                <p class="doller">￥1233</p>
+                                <p class="style">学院藏青蓝/灰色/警报红萤光[F35017]</p>
+                                <div class="imgs">
+                                    <a href=""><img src="./../images/goods/dr1.jpg" alt=""></a>
+                                    <a href=""><img src="./../images/goods/dr2.jpg" alt=""></a>
+                                    <a href=""><img src="./../images/goods/dr3.jpg" alt=""></a>
+                                    <a href=""><img src="./../images/goods/dr4.jpg" alt=""></a>
+                                    <a href=""><img src="./../images/goods/dr5.jpg" alt=""></a>
+                                </div>
+                                <a class="chata" href="">查看尺码对照表</a>
+                                <div class="inbtn">
+                                    <input type="text" placeholder="查看尺码 （uk）码" class="inp1"><button class="btn1"><i class="iconfont icon-xiajiantou"></i></button><input type="text" placeholder="1" class="inp2"><button class="btn2"><i class="iconfont icon-xiajiantou"></i></button>
+                                </div>
+                            <div class="payi">
+                                    <p><a href="">立即购买</a></p><i class="iconfont icon-youjiantou"></i>
+                                </div>
+                                <div class="payi pay2">
+                                    <p><a href="">加入购物袋</a></p><i class="iconfont icon-youjiantou"></i>
+                                </div>
+                                <div class="ol">
+                                    <p class="olp"><i class="iconfont icon-duigou"></i>&nbsp该商品免运费</p>
+                                    <p class="olp1"><i class="iconfont icon-pinglun"></i>&nbsp在线客服</p>
+                                </div>
+                                <p class="sming">价格说明：上文显示的划线价格系该商品的建议零售价（而非法律意义上的原价），仅供您参考。</p>
+                                <div class="song">
+                                  <div></div>
+                                  <div></div>
+                                </div>
+
+
+                          </div>
+
+            </div>
+            
+
+     </div>
+      
+
+<!-- 商品描述 -->
+<div class="description">
+    <div class="des-con">
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+	<!-- 底部导航栏 -->
     <div class="botton_nav">
         <div class="botton_con">
             <ul>
@@ -424,14 +395,17 @@
             </ul>
         </div>
     </div>
-    
 
 
 
-
-   
-    <script src="./../js/jquery-1.11.3.js"></script>
+	<script src="./../js/jquery-1.11.3.js"></script>
     <script src="./../js/common.js"></script>
-    <script src="./../js/list.js"></script>
+    <script src="./../js/goods.js"></script>
+    <script src="./../js/jquery.exzoom.js"></script> 
+    <script>
+        $("#exzoom").exzoom({
+        autoPlay: false,
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,266 @@
+.ship_con,.back_con,.details-con,.des-con{
+    width:1262px;
+    margin:0 auto;
+}
+
+
+
+/* 页头运送 */
+.ship{
+    height:40px;
+    border-bottom: 1px solid #888;
+}
+.ship_con{
+    height:40px;
+}
+.ship1{
+    height:40px;
+    line-height:40px;
+    margin-left:140px;
+    float:left;
+}
+.ship1>span>img{
+    height:23px;
+    width:23px;
+    float:left;
+    margin:8px 10px 0 0 ;
+}
+.shipp1{
+    font-size:14px;
+    color:#000;
+    float:left;
+}
+.ship2{
+    margin-left:220px;
+}
+.ship3{
+    margin-left:210px;
+}
+
+
+/* 详情文字 */
+.back{
+    height:55px;
+    width:100%;
+}
+.back_con{
+    height:35px;
+    padding-top:20px;
+    font-size:14px;
+    color:#000;
+ 
+}
+.de-p1{
+    margin-left:10px;
+    line-height:14px;
+    height:14px;
+    width:50px;
+    float:left;
+    border-right:1px solid #000;
+}
+.de-p2{
+    margin-left:10px;
+    line-height:14px;
+    height:14px;
+    width:200px;
+    float:left;
+}
+
+
+/* 详情 */
+.details{
+    height:504px;
+    background:#eceef0;
+}
+.details-con{
+    height:504px;
+    position: relative;
+}
+
+#exzoom {
+	width: 400px;
+	/*height: 400px;*/
+	margin-left:120px;
+}
+
+.details-right{
+    background:#fff;
+    height:782px;
+    width:320px;
+    position: absolute;
+    top:-25px;
+    left:700px;
+    padding:15px;
+    z-index:10;
+    border:1px solid #888;
+    
+}
+.details-right .dr-p1{
+    font-size:13px;
+    color:#888;
+}
+h5{
+    font-size:20px;
+    color:#000;
+    margin-top:10px;
+}
+.xinxin{
+    font-size:14px;
+    color:#000;
+    margin-top:25px;
+}
+.xinxin a{
+    font-size:13px;
+    margin-left:5px;
+}
+.doller{
+    font-size:14px;
+    color:#000;
+    margin-top:22px;
+}
+.style{
+    font-size:13px;
+    color:#000;
+    margin-top:38px;
+}
+.imgs{
+    height:143px;
+    width:351px;
+    margin-top:20px;
+}
+.imgs img{
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    margin:10px 10px 0  0 ;
+}
+.chata{
+    display:block;
+    font-size:13px;
+    color:#000;
+    margin-top:20px;
+}
+.inbtn{
+    height:50px;
+}
+.inp1{
+    height:42px;
+    width:193px;
+    float:left;
+    border:1px solid #000;
+    color:#000;
+    border-right:none;
+}
+.btn1{
+    height:44px;
+    width:37px;
+    border:1px solid #000;
+    border-left:none;
+    background:#fff;
+    float:left;
+}
+
+.inp2{
+    height:42px;
+    width:46px;
+    margin-left:5px;
+    border:1px solid #000;
+    border-right:none;
+    float:left;
+}
+.btn2{
+    height:44px;
+    width:34px;
+    border:1px solid #000;
+    border-left:none;
+    background:#fff;
+    float:left;
+}
+.payi{
+    height:41px;
+    width:320px;
+    background:#000;
+    color:#fff;
+    font-size:14px;
+    line-height:41px;
+    margin-top:26px;
+   
+} 
+.payi p a:hover{
+    color:#888;
+}
+.payi a{
+    color:#fff;
+    float:left;
+}
+
+.payi p{
+    margin-left:20px;
+}
+.payi i{
+    float:right;
+}
+.pay2{
+    background:#fff;
+    border:2px solid #000;
+}
+.pay2 a{
+    color:#000;
+}
+.pay2 i{
+    float:right;
+    color:#000;
+}
+.ol{
+    height:40px;
+    width:100%;
+    font-size:13px;
+    color:#000;
+    margin-top:10px;
+    border-bottom: 1px solid #888;
+}
+.olp{
+    float:left;
+    margin-left:5px;
+}
+.olp1{
+    float:right;
+    margin-right:5px;
+}
+
+.sming{
+    font-size:12px;
+    color:#888;
+    margin:20px 0 15px 0;
+}
+.song div{
+    height:40px;
+    width:40px;
+    border:1px solid #888;
+}
+.song div:first-child{
+    float:left;
+    background:url(./../images/goods/icon.png)-55px -148px;
+}
+.song div:last-child{
+    margin-left:50px;
+    background:url(./../images/goods/icon.png)-194px -146px;
+}
+
+
+
+
+
+
+
+/* 商品描述 */
+.description{
+    margin-top:360px;
+    height:1196px;
+    width:100%;
+    background:pink;
+}
+.des-con{
+    background:yellow;
+    height:1196px;
+}
