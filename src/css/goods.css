@@ -142,8 +142,94 @@ h5{
     color:#000;
     margin-top:20px;
 }
+.chatacm{
+    height:213px;
+    width:315px;
+    background:#fff;
+    border:1px solid #000;
+    border-top:none;
+    position: absolute;
+    top:40px;
+    z-index:3;
+    display:none;
+}
+.chatdiv-top{
+    height:170px;
+}
+.chatdiv{
+    height:34px;;
+    width:40px;
+    float:left;
+    background:#fff;
+    border:1px solid #888;
+    margin:10px;
+    text-align:center;
+    line-height:34px;
+}
+.chatdiv a{
+    color:#000;
+}
+
+.chatdiv:hover{
+    background:#000;
+}
+.chatdiv:hover a{
+    color:#fff;
+}
+
+.chatdiv-bot{
+    height:43px;
+}
+.chatdiv-bot p{
+    font-size:13px;
+    color:#000;
+    float:left;
+    margin:5px 0 0 10px;
+}
+
+.cb-lj{
+    height:27px;
+    width:80px;
+    background:#000;
+    float:left;
+    margin-top:5px;
+    text-align:center;
+    line-height:27px;
+}
+.chatdiv-bot div a{
+    font-size:14px;
+    color:#fff;
+}
+
+.chatul{
+    height:280px;
+    width:79px;
+    background:#fff;
+    position: absolute;
+    left:236px;
+    top:40px;
+    border:1px solid #000;
+    border-top:none;
+    display:none;
+}
+.chatul ul li{
+    height:30px;
+    width:79px;
+    text-align:center;
+    line-height:30px;
+}
+.chatul ul li:hover{
+    background:#000;
+    color:#fff;
+}
+.chatul .chatli{
+    border-bottom:none;
+}
+
+
 .inbtn{
     height:50px;
+    position: relative;
 }
 .inp1{
     height:42px;

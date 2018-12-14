@@ -1,0 +1,160 @@
+.car-con,.case2-con{
+    width:1262px;
+    margin:0 auto;
+}
+
+
+
+/* 购物车内容 */
+.car{
+    height:369px;
+    width:100%;
+}
+.car-con{
+    height:369px;
+}
+.car-left{
+    height:369px;
+    width:945px;
+    float:left;
+}
+.p1{
+    height:47px;
+    width:945px;
+    padding-top:35px;
+    margin-left:40px;
+}
+.p11{
+    height:40px;
+    width:885px;
+    background:#f9f9f9;
+    font-size:12px;
+    color:#000;
+    line-height:40px;
+    padding-left:10px;
+}
+.lin{
+    height:277px;
+    width:905px;
+    padding:  10px 0 0 40px;
+}
+.lin h3{
+    font-size:24px;
+    color:#000;
+}
+.lin-p1{
+    font-size:14px;
+    color:#888;
+    margin-top:30px;
+}
+.shop{
+    height:42px;
+    width:202px;
+    background:#000;
+    margin-top:52px;
+    line-height:42px;
+    text-align:center;
+}
+.shop a{
+    color:#fff;
+}
+.car-right{
+    height:369px;
+    width:317px;
+    float:left;
+}
+.right-ul{
+    height:142px;
+    width:302px;
+    padding:30px 0 0 15px;
+}
+h4{
+    font-size:16px;
+    color:#000;
+}
+.right-ul ul li{
+    font-size:13px; 
+}
+.right-img{
+    height:167px;
+    width:302px;
+    padding:30px 0 0 15px;
+}
+.right-img p{
+    font-size:14px;
+    color:#000;
+}
+.pai{
+    margin-top:10px;
+    width:95px;
+    height:30px; 
+  
+}
+.pai1{
+    float:left;
+    background:url(./../images/index/icon.png) -600px -343px;
+}
+.pai2{ 
+    margin-left:130px;
+    background:url(./../images/index/icon.png) -696px -343px;
+}
+.pai3{ 
+    margin-left:10px;
+    float:left;
+    background:url(./../images/index/icon.png) -808px -343px;
+}
+.pai4{ 
+    margin-left:115px;
+    background:url(./../images/index/icon.png) -906px -343px;
+}
+
+/* case2 */
+.case2{
+    height:500px;
+    width:100%;
+}
+.case2-con{
+    height:500px;
+}
+.swiper{
+    height:427px;
+    width:100%;
+}    
+.cap{
+    height:47px;
+    font-size:26px;
+    color:#000;
+    font-weight:500;
+    margin-left:15px;
+    padding-top:27px;
+}
+.case1Con_botton{
+    height:445px;
+  
+    position: absolute;
+}
+.cb_one{
+    height:445px;
+    width:292px;
+   
+    float:left;
+   
+}
+.one1{
+     margin-left:20px;
+}
+.one2{
+    margin-left:16px;
+}
+
+
+.cb_oneImg{
+    height:293px;
+    width:292px;
+   
+}
+.cb_one p{
+    font-size:12px;
+    color:#000;
+    margin:15px 0 0 16px;
+}

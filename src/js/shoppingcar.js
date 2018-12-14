@@ -16,19 +16,3 @@ var mySwiper = new Swiper ('.swiper-container', {
       el: '.swiper-scrollbar',
     },
   })  
-
-
-
-  //尺码表
-  $(document).ready(function(e) {
-    $(".btn1").click(function(e) {
-        $(".chatacm").toggle();
-    });
-});
-
-//数量
-$(document).ready(function(e) {
-  $(".btn2").click(function(e) {
-      $(".chatul").toggle();
-  });
-});
